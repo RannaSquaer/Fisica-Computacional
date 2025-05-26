@@ -1,0 +1,21 @@
+# Ignorar arquivos de cache do Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ambientes virtuais
+venv/
+env/
+.fiscomp/
+
+# Arquivos de configuração do VSCode
+.vscode/
+
+# Arquivos do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Arquivos temporários
+*.log
+*.tmp

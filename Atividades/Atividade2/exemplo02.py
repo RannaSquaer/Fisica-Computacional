@@ -1,12 +1,15 @@
+# Importando bibliotecas
 import numpy as np
 import matplotlib.pyplot as plt
 from particula import Particula
 import math
 
 # Constantes
-g = 9.8
-dt = 0.01
-massa = 1.0
+g = 9.8 # aceleração da gravidade (m/s²)
+dt = 0.01 # intervalo de tempo (s)
+massa = 1.0 # kg
+
+
 v0 = 20  # velocidade inicial em m/s
 angulos_graus = [15, 30, 45, 60, 75]  # ângulos em graus
 
